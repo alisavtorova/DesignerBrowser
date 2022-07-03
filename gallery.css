@@ -4,6 +4,7 @@
 		text-decoration: none;
 		font-family: Verdana, sans-serif;		
 		color: #ffffff;
+		text-transform: uppercase;
 	}
 	
 		 /* фон */
@@ -18,7 +19,7 @@
 		height: 100%;
 		position: fixed;
 		z-index: 1;
-	    text-transform: uppercase;	   
+	    	   
 	 }
 	  
 	.LeftSection img {
