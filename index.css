@@ -26,10 +26,12 @@
 	  
 	   font-size: 100px;
 	   padding: 20% 0% 0% 0%;
+	   text-transform: uppercase;
 	   }
 	   
 	.LeftSection h2{
 	   font-size: 20px;
+	   text-transform: uppercase;
 	   }
 
 	  /* меню */
