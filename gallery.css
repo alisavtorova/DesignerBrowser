@@ -1,116 +1,65 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <style>
-      
-	  		/* фон */
-     body{
-        background-color: #fff7e2;
-        background-image: url("Images/HomeBC.png");
-        background-repeat: no-repeat;
-		background-attachment: fixed;
-		font-family: "Verdana";		
-      }
-	  
-	  /* меню */
-      .RightMenuStl{
+	*{
+		margin: 0;
+		padding: 0;		
+		text-decoration: none;
+		font-family: Verdana, sans-serif;		
+		color: #ffffff;
+	}
+	
+		 /* фон */
+	body{
+		background-color: #ffffff;
+	}
+	
+		/* меню */
+	.LeftSection{
+		background-color: #91969c;
+		width: 300px;
 		height: 100%;
-		max-width: 35%;
 		position: fixed;
 		z-index: 1;
+	    text-transform: uppercase;	   
+	 }
+	  
+	.LeftSection img {
+	  	display: block;
+		margin: auto;
+	}
+		
+	img#search {
+		width: 200px;
+		padding-top: 40px;	
+	}
+	
+	.Navbar {
+		padding-top: 250px;	
+	}
+	
+	.Navbar li {
+		display: block;
+		font-size: 20px;
+		text-align: left;
+		padding: 3px 40px;
+	}
+	
+		a:hover {
+    text-decoration: underline;
+	}
+	
+	img#logo {
+		width: 100px;
+		padding-top: 40px;	
+	}
+	
+	.RightSection{		
+		position: fixed;
 		top: 0;
 		right: 0;
-		background-color: #d5d2c2;
-		overflow-x: hidden;
-		padding-top: 2%;
-		text-align: center;
-		color: white;
-		font-size: 25px;
-      }
-	  
-	  .SideNav a {
-		display: block;
-		text-decoration: none;	
-		color: white;
-		text-align: left;
-		font-size: 30px;
-		padding: 6px 8px 6px 16px;
-		
+		color: #000000;
 	}
 	
-	.SideNav a:hover {
-    text-decoration: underline;
-	}
-
-	.DownNav a {
-		display: block;
-		padding: 6px 8px 6px 16px;
-		text-decoration: none;
-		font-size: 15px;
-		color: white;
-	}
-	
-		.DownNav a:hover {
-    text-decoration: underline;
-	}
-
-    .RightMenuStl img {
-	width: 80%;
-	max-width: 400px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	}
- 
-	  /* приветствие */
-	  .Main{
-	  width: 65%;
-	  color: #9a9fa9;
-	  text-align: center;
-	  
-	  }
-	  
-	  .Main h1{
-	   font-size: 100px;
-	   padding: 20% 0% 0% 0%;
-	   margin: 0;
-	   }
-	   
-	  .Main h2{
-	   font-size: 20px;
-	   padding: 0%;
-	   margin: 0;
-	   }
-      
-
-    </style>
-        <title>Welcome</title>
-    </head>
-    <body>
-    
-    <div class="Main">
-     <h1>WELCOME</h1>
-	 <h2>Подзаголовок приветствия</h2>
-    </div>
- 
-    <div class="RightMenuStl">
-    
-      <h1>LET'S START</h1>
-	  
-	  <div class="SideNav">
-	  <a href="#">Register</a>
-	  <a href="#">Login</a>
-	</div>
-	  
-	  <img src="Images/PC.png">
-	  
-	  	  <div class="DownNav">
-	  <a href="#">DOWNLOAD THE APP</a>
-	  <a href="#">FAQ</a>
-	</div>
-	  
-	  
-    </div>
-    
-    </body>
-</html>
+	.RightSection img{
+		padding-top: 10px; 
+		padding-right: 130px;
+		height: 650px;
+	}		
