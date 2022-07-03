@@ -1,0 +1,40 @@
+	.LeftSection h1{		  
+		color: #91969c;
+		font-size: 100px;
+		padding: 100px 0 0 0;
+	   }
+	   
+	.LeftSection h2{
+		color: #ccc0a9;
+		font-size: 50px;
+	   }
+	   
+	.LeftSection b{
+		color: #ccc0a9;
+		font-size: 30px;
+		margin: 60px;
+	 }
+	   
+	   /* кнопки */
+	.LeftSection img{
+		width: 500px;
+	   }
+
+	  /* картинка */
+    .RightSection{
+		background-color: #fff7e2;
+      }
+	  
+    .RightSection img {
+		width: 1000px;
+		padding: 100px 0 0 0;
+		margin: auto;
+	}
+	
+	.RightSection a {	
+		display: block;
+		color: #ccc0a9;
+		font-size: 15px;
+		margin: auto;
+		padding: 30px 0 0 0;
+	}
