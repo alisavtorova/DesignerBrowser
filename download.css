@@ -1,0 +1,65 @@
+	*{
+		margin: 0;
+		padding: 0;		
+		text-decoration: none;
+		font-family: Verdana, sans-serif;		
+	}
+	
+	 /* фон */
+	body{
+		background-color: #fff7e2;
+	}
+	
+	.LeftSection{
+		width: 50%;
+		height: 100%;
+		text-align: center;
+	    text-decoration: uppercase;
+	  }
+	  
+	  .LeftSection a{	
+		color: gray;		  
+	    font-size: 20px;
+		text-align: left;
+	   }
+	   
+	.LeftSection	a:hover {
+		text-decoration: underline;
+		}
+	  
+	.LeftSection h1{		  
+	  color: black;
+	   font-size: 100px;
+	   }
+	   
+	.LeftSection h2{
+		  color: gray;
+	   font-size: 50px;
+	   }
+	   
+	.LeftSection img{
+		width: 500px;
+		max-width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	   }
+
+	  /* картинка */
+    .RightSection{
+		width: 50%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		right: 0;
+		overflow-x: hidden;
+      }
+	  
+
+    .RightSection img {
+	width: 400px;
+	max-width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
