@@ -2,7 +2,8 @@
 		margin: 0;
 		padding: 0;		
 		text-decoration: none;
-		font-family: Verdana, sans-serif;		
+		font-family: Verdana, sans-serif;
+		text-transform: uppercase;
 	}
 	
 	 /* фон */
@@ -18,10 +19,11 @@
 		width: 65%;
 		color: #9a9fa9;
 		text-align: center;
+		text-transform: uppercase;
 	  }
 	  
 	.LeftSection h1{		  
-	   text-transform: uppercase;
+	  
 	   font-size: 100px;
 	   padding: 20% 0% 0% 0%;
 	   }
